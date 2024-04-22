@@ -58,10 +58,10 @@ ChatServer Code
 
 ![Image](part11.png)
 
-For the first picture, 'handleRequest' method was called.
+For the first picture, `handleRequest` method was called.
 
 ![Image](part12.png)
 
-For the second picture, 'handleRequest' method was called.
+For the second picture, `handleRequest` method was called.
 
 ## Part 2 
