@@ -5,11 +5,10 @@
 ChatServer Code
 --------------------------
 >
-
   import java.io.IOException;
-  import java.net.URI;
+import java.net.URI;
 
-  class Handler implements URLHandler {
+class Handler implements URLHandler {
 
     String messages = "";
     public String handleRequest(URI url) {
