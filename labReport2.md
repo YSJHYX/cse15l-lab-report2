@@ -61,20 +61,34 @@ ChatServer Code
 1. **Method Called:** `handleRequest(URI url)` method in `Handler` class was called.
 
 2. **Relevant arguments and values of fields:**
+   
    `url`: `/add-message?s=Hello&user=jpolitz`
    
-   `user`: 'jpolitz'
+   `user`: "jpolitz"
    
-   `message`: `Hello`
+   `message`: "Hello"
    
-   `messages`: ''
+   `messages`: ""
    
-4. **Changes in relevant fields:**
-   The value of field `messages` updates to 'jpolitz: Hello\n'.
+3. **Changes in relevant fields:**
+   The value of field `messages` updates to `jpolitz: Hello\n`.
 
 
 ![Image](part12.png)
 
-For the second picture, `handleRequest` method was called.
+1. **Method Called:** `handleRequest(URI url)` method in `Handler` class was called.
+
+2. **Relevant arguments and values of fields:**
+   
+   `url`: `/add-message?s=How are you&user=yash`
+   
+   `user`: "yash"
+   
+   `message`: "How are you"
+   
+   `messages`: ""
+   
+3. **Changes in relevant fields:**
+   The value of field `messages` updates to `yash: How are you\n`.
 
 ## Part 2 
