@@ -64,14 +64,14 @@ ChatServer Code
    
    `url`: `/add-message?s=Hello&user=jpolitz`
    
-   `user`: "jpolitz"
+   `user`: `"jpolitz"`
    
-   `message`: "Hello"
+   `message`: `"Hello"`
    
-   `messages`: ""
+   `messages`: `""`
    
 3. **Changes in relevant fields:**
-   The value of field `messages` updates to `jpolitz: Hello\n`.
+   The value of field `messages` updates to `"jpolitz: Hello\n"`.
 
 
 ![Image](part12.png)
@@ -82,13 +82,17 @@ ChatServer Code
    
    `url`: `/add-message?s=How are you&user=yash`
    
-   `user`: "yash"
+   `user`: `"yash"`
    
-   `message`: "How are you"
+   `message`: `"How are you"`
    
-   `messages`: ""
+   `messages`: `"jpolitz: Hello\n"`
    
 3. **Changes in relevant fields:**
-   The value of field `messages` updates to `yash: How are you\n`.
+   The value of field `messages` updates to
+
+   `"jpolitz: Hello\n"`
+   
+   `"yash: How are you\n"`.
 
 ## Part 2 
