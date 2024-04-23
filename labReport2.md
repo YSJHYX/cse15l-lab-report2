@@ -96,7 +96,7 @@ ChatServer Code
    `"yash: How are you\n"`.
 
 ## Part 2 : Screenshots
---------------------------
+
 1. ![Image](part21.png)
 
 2. ![Image](part22.png)
@@ -104,7 +104,7 @@ ChatServer Code
 3. ![Image](part23.png)
 
 ## Part 3: Servers
---------------------------
+
 Before I learned Week 2, I didn't know I could run the server locally, even didn't know I could do that!
 
 I also learned how to use curl to perform various tasks from the command line.
