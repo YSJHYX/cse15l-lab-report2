@@ -62,11 +62,14 @@ ChatServer Code
 
 2. **Relevant arguments and values of fields:**
    `url`: `/add-message?s=Hello&user=jpolitz`
+   
    `user`: 'jpolitz'
+   
    `message`: `Hello`
+   
    `messages`: ''
    
-3. **Changes in relevant fields:**
+4. **Changes in relevant fields:**
    The value of field `messages` updates to 'jpolitz: Hello\n'.
 
 
