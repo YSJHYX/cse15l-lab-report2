@@ -96,4 +96,8 @@ ChatServer Code
    `"yash: How are you\n"`.
 
 ## Part 2 
-1.
+1. ![Image](part21.png)
+
+2. ![Image](part22.png)
+
+3. ![Image](part23.png)
